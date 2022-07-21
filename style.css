@@ -15,7 +15,6 @@ h1 {
     border-radius: 25px;
     background-color: black;
     display: flex;
-    
 }
 
 .show {
@@ -44,4 +43,51 @@ h1 {
 .show a:hover{
     color: rgb(81, 81, 193);
     padding: 8px 25px;
+}
+.game{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+
+
+.options{
+    background-color: black;
+    width: 230px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 22px 0 0 18px;
+    margin-right: 10px;
+}
+button{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 10px 0 0 35px;
+    border: none;
+    border-radius: 7px ;
+    padding: 10px 20px;
+}
+
+.top-game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:770px;
+    gap: 10px;
+
+}
+
+.top-play img{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+}
+#b-1{
+    padding: 10px 42px;
+}
+#b-2{
+    padding: 10px 35px;
+    background-color: tomato;
 }
